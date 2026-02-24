@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Broadcast{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h2>Broadcast Message</h2>
+    <form method="POST">
+        <textarea name="message" rows="5" style="width:100%;" placeholder="Enter message"></textarea>
+        <button type="submit">Send</button>
+    </form>
+</div>
+{% endblock %}
