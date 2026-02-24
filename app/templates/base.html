@@ -50,12 +50,6 @@
 </head>
 <body>
 
-{% if current_user.is_authenticated %}
-<div class="nav">
-    <a href="/dashboard">Dashboard</a>
-    <a href="/broadcast">Broadcast</a>
-    <a href="/logout">Logout</a>
-</div>
 {% endif %}
 
 {% block content %}{% endblock %}
